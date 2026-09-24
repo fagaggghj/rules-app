@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Правила чата</title>
+    <script src="https://telegram.org"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--tg-theme-bg-color, #ffffff);
+            color: var(--tg-theme-text-color, #222222);
+            padding: 20px;
+            margin: 0;
+        }
+        h1 { color: var(--tg-theme-button-color, #2481cc); font-size: 24px; margin-bottom: 20px; text-align: center; }
+        ol { padding-left: 5px; list-style-type: none; line-height: 1.6; margin: 0; }
+        li { margin-bottom: 18px; font-size: 15px; padding: 10px; background-color: var(--tg-theme-secondary-bg-color, #f4f4f5); border-radius: 10px; }
+        strong { color: var(--tg-theme-text-color, #222222); }
+        .warn { color: #e53935; font-weight: bold; }
+        .ban { color: #b71c1c; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>📜 Правила нашего чата</h1>
+
+    <ol>
+        <li><strong>1. Ссоры и конфликты</strong> с участниками или администрацией запрещены. <span class="warn">(Варн всем участникам)</span></li>
+        
+        <li><strong>2. Слив личной информации</strong> участников запрещен. <span class="warn">(Варн)</span></li>
+        
+        <li><strong>3. Политика</strong> в чате запрещена. <span class="warn">(Варн)</span></li>
+        
+        <li><strong>4. Контент 18+ / 21+</strong> запрещено кидать. <span class="warn">(Варн)</span></li>
+        
+        <li><strong>5. Спам запрещен.</strong> 3 и более одинаковых сообщений считаются спамом. Пересылка сообщений тоже считается спамом, если больше 5 раз. <span class="ban">(Бан)</span></li>
+        
+        <li><strong>6. Реклама и пиар</strong> чего-либо запрещены. <span class="ban">(Бан)</span></li>
+        
+        <li><strong>7. Роль</strong> вы можете поменять только через неделю, написав владельцу или совладельцу.</li>
+        
+        <li><strong>8. Если у вас не получается влиться</strong>, то попросите помощи у одного из админов, в лучшем случае — у владельца.</li>
+        
+        <li><strong>9. Зазывалова.</strong> Запрещено вызывать зазывалову без причины. Можно только с разрешения и по причине. <span class="warn">(Варн)</span></li>
+        
+        <li><strong>10. Неактив.</strong> 3 дня неактива — <span class="ban">бан</span>.</li>
+    </ol>
+
+</body>
+</html>
+
